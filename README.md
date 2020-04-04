@@ -21,6 +21,7 @@ docker run --rm -it -v %cd%:/workspace build_env
 From a `build_env` docker container:
 
 ```
+cd /workspace
 mkdir _bld
 cd _bld
 cmake ..
